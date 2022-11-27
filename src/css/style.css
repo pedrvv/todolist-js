@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(120deg, #47B5FF, #06283D);
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.content {
+  margin: 50px 0;
+}
+
+/* input area */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt-task {
+  width: 500px;
+}
+
+.txt-task,
+.btn {
+  padding: 8px;
+  font-size: 24px;
+  border: none;
+  background: #DFF6FF;
+  outline: none;
+  color: #5f5f5f;
+}
+
+/* add task */
+
+.btn-add {
+  background: #256D85;
+  color: #DFF6FF;
+  padding: 1px 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-add:hover {
+  background: #DFF6FF;
+  color: #256D85;
+}
+
+/* tasks */
+
+.list-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.item-task {
+  width: 520px;
+  background: #DFF6FF;
+  border: 1px solid #47B5FF;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #4cabca;
+  color: #256D85;
+  padding: 8px 11px;
+  font-size: 1.125rem;
+  margin: 10px auto 0 auto;
+}
+
+/* delete tasks */
+
+.btnDelete {
+  float: right;
+  background: #ff0000b9;
+  color: #F2F2F2;
+  padding: 1px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.125rem;
+}
+
+.btnDelete:hover {
+  background: #ff0000d0;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  color: #f2f2f257;
+  padding: 4px 0;
+}
+.info a {
+  color: #f2f2f257;
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 2px 0;
+}
+
+.info a:hover {
+  color: #F2F2F2;
+}
