@@ -9,7 +9,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   background: linear-gradient(120deg, #47B5FF, #06283D);
-  height: 100vh;
+  background-attachment: fixed;
 }
 
 header {
@@ -72,7 +72,7 @@ header {
 }
 
 .item-task {
-  width: 520px;
+  width: 420px;
   background: #DFF6FF;
   border: 1px solid #47B5FF;
   border-radius: 3px;
